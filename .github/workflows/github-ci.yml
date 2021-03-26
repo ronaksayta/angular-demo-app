@@ -29,4 +29,4 @@ jobs:
           key: ${{ secrets.KEY }}
           strip_components: 2
           source: "dist/demoapp/*"
-          target: "test4"
+          target: "/var/www/html/"
