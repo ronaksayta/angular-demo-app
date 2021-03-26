@@ -27,5 +27,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.KEY }}
-          source: "dist/*"
-          target: "test"
+          source: "dist/demoapp/*"
+          target: "test/directory"
