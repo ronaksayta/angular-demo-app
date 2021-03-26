@@ -28,6 +28,5 @@ jobs:
           port: ${{ secrets.PORT }}
           key: ${{ secrets.KEY }}
           strip_components: 2
-          rm: true
           source: "dist/demoapp/*"
-          target: "/var/www/html/"
+          target: "/var/www/html"
